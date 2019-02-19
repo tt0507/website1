@@ -1,0 +1,220 @@
+p{
+  font-family:sans-serif;
+}
+
+.all{
+  display:flex;
+  flex-direction:row;
+}
+
+div.index_v2{
+  display:flex;
+  flex-direction:column;
+  width:450px;
+  background-attachment: fixed;
+  background-image: linear-gradient(#2aeaff,white);
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin: 15px;
+}
+
+div.places_to_go{
+  display:flex;
+  flex-direction:row;
+  flex:1;
+  justify-content:center;
+}
+
+h2.index_v2{
+  margin-top:40px;
+  color:#251aff
+}
+
+body{
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#2aeaff,white);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/*
+.navbar{
+  background-color:#333;
+  /*display:flex;
+  flex-direction:row;
+  overflow: hidden;
+  list-style-type: none;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 10px;
+  align-items:center;
+}*/
+
+.navbar{
+  padding: 0;
+  list-style-type: none;
+  display:flex;
+  height:50px;
+  justify-content: center
+}
+
+.home{
+  flex:1;
+  padding-top:15px;
+  margin-left:auto;
+  color:white;
+}
+
+.things_to_do{
+  flex:1;
+  padding-top:15px;
+}
+
+.about_yokohama{
+  flex:1;
+  padding-top:15px;
+  margin-right:auto;
+}
+
+li{
+  background-color:#333;
+  color:white;
+  /*margin:30px;*/
+  text-align: center;
+  /*padding: 14px 16px;*/
+  text-decoration: none;
+}
+
+a:link{
+  color:#2185ff;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color:pink;
+}
+
+h1.places_to_go_v2{
+  display:flex;
+  margin-top:40px;
+  text-align:center;
+  background-attachment: fixed;
+  background-image: linear-gradient(#2aeaff,white);
+  background-repeat: no-repeat;
+}
+
+div.split_left{
+  background-image:url("../image/aka_renga_v2.jpg");
+  background-repeat: no-repeat;
+  background-position:23% 15%;
+  text-align: center;
+  text-decoration:none;
+  vertical-align: middle;
+  height: 80%;
+  width: 25%;
+  display:flex;
+  margin-top:200px;
+  margin-right:20%;
+  margin-left:auto;
+}
+
+div.split_center{
+  background-image:url("../image/ct_v2.jpg");
+  text-align: center;
+  background-position:50% 40%;
+  vertical-align: middle;
+  height: 80%;
+  width: 25%;
+  display: flex;
+  margin-top:200px;
+  margin-right:20%;
+
+}
+
+div.split_right{
+  background-image:url("../image/ramen_museum_v2.jpg");
+  text-align: center;
+  background-position:50% 40%;
+  vertical-align: middle;
+  height: 80%;
+  width: 25%;
+  display:flex;
+  margin-top:200px;
+  margin-right:20%;
+}
+
+p.index_v2{
+  color:blue
+}
+
+h1{
+  margin-top:20px;
+  font-size:50px;
+  color:#251aff
+}
+
+div.minato_mirai_1_v2{
+  border: 5px solid black;
+  padding:5px;
+}
+
+div.minato_mirai_2_v2{
+  border: 5px solid black;
+  margin-top:20px;
+  padding:5px;
+}
+
+h2.minato_mirai_v2{
+  color:#251aff
+}
+
+h3.minato_mirai_v2{
+  color:#0661ff
+}
+
+h1.china_town_v2{
+  color:#251aff
+}
+
+div.china_town_v2{
+  border: 5px solid black;
+  padding:5px;
+}
+
+h1.ramen_museum_v2{
+  color:#251aff
+}
+
+div.ramen_museum_v2{
+  border: 5px solid black;
+  padding:5px;
+}
+
+h4.things_to_do_spring_v2{
+  color:#d4a7cc;
+}
+
+h4.things_to_do_summer_v2{
+  color:#11ba22;
+}
+
+h4.things_to_do_autumn_v2{
+  color:#bd7210;
+}
+
+h4.things_to_do_winter_v2{
+  color:#c0c0e0;
+}
+
+div.things_to_do_v2{
+  border: 5px solid black;
+  padding:5px;
+}
+
+div.about_yokohama_v2{
+  border: 5px solid black;
+  padding:5px;
+}
